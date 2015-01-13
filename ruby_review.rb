@@ -106,7 +106,7 @@
 
 # CHALLENGE: RUBY TO HTML
 
-# Create a Ruby script rubythat takes the following array of image links
+# Create a Ruby script that takes the following array of image links
 # and turns them into images on a web page. Bonus if you use Bootstrap
 
 # images = [
