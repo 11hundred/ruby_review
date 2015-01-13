@@ -5,7 +5,7 @@
 # your current problem.
 
 
-### USING METHODS
+### 1. USING METHODS
 
 # Given the string "hello", add Ruby code to make just
 # the "h" uppercase
@@ -13,7 +13,7 @@
 # "hello"
 
 
-### VARIABLES, OUTPUT AND CONCATENATION
+### 2. VARIABLES, OUTPUT AND CONCATENATION
 
 # a) Create two variables - one for your first name and
 # one for your last name.
@@ -22,7 +22,7 @@
       # =>  My name is Arjun Venkataswamy
 
 
-### CREATING METHODS
+### 3. CREATING METHODS
 
 # a) Write a method called "weather" that:
 #   - takes in two inputs: a city name and a temperature
@@ -30,7 +30,8 @@
     # => "In Chicago it's -75 degrees."
 # b) Call the above method
 
-### CONDITIONAL LOGIC
+
+### 4. CONDITIONAL LOGIC
 
 # Write a method called "weather" that:
 #   - takes in one inputs: a temperature
@@ -42,7 +43,7 @@
       # => "... just move somewhere else. You don't deserve this."
 
 
-### ARRAYS
+### 5. ARRAYS
 
 # a) Create an array that contains the following strings:
 #    "Hot Doug's"
@@ -52,7 +53,7 @@
 # c) Using the variable, print out the second item in the array
 
 
-### HASHES
+### 6. HASHES
 
 # a) Pull out Bob's zip code from the following hash:
 
@@ -81,7 +82,7 @@
 
 
 
-### THE EACH LOOP
+### 7. THE EACH LOOP
 
 # a) Loop through the following array, and print
 #    out statements that look like:
@@ -93,7 +94,7 @@
 # challenge) Randomize the message at the end of each statement
 
 
-### CLASSES
+### 8. CLASSES
 
 # a) Create a class called Puppy.
 # b) Instantiate a puppy object using this class
@@ -104,7 +105,7 @@
 # g) Create a method to decrease the puppy's happiness by 1
 
 
-# CHALLENGE: RUBY TO HTML
+# 9. CHALLENGE: RUBY TO HTML
 
 # Create a Ruby script that takes the following array of image links
 # and turns them into images on a web page. Bonus if you use Bootstrap
