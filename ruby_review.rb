@@ -18,7 +18,7 @@
 # a) Create two variables - one for your first name and
 # one for your last name.
 # b) Give them both appropriate values.
-# c) Use variables to print out a sentence that looks like:
+# c) Use your variables to print out a sentence that looks like:
       # =>  My name is Arjun Venkataswamy
 
 
