@@ -34,7 +34,7 @@
 ### 4. CONDITIONAL LOGIC
 
 # Write a method called "weather" that:
-#   - takes in one inputs: a temperature
+#   - takes in one input: a temperature
 #   - prints out a statement that depends on the temperature
 #     for example)
       # => "It is hot hot hot!"
