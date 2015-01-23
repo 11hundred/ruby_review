@@ -18,7 +18,7 @@
 # a) Create two variables - one for your first name and
 # one for your last name.
 # b) Give them both appropriate values.
-# c) Use variables to print out a sentence that looks like:
+# c) Use your variables to print out a sentence that looks like:
       # =>  My name is Arjun Venkataswamy
 
 
@@ -34,7 +34,7 @@
 ### 4. CONDITIONAL LOGIC
 
 # Write a method called "weather" that:
-#   - takes in one inputs: a temperature
+#   - takes in one input: a temperature
 #   - prints out a statement that depends on the temperature
 #     for example)
       # => "It is hot hot hot!"
