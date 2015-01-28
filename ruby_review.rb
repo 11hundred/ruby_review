@@ -12,23 +12,24 @@
 
 # "hello"
 
+    puts "hello".capitalize
+
 
 ### 2. VARIABLES, OUTPUT AND CONCATENATION
 
 # a) Create two variables - one for your first name and
 # one for your last name.
 # b) Give them both appropriate values.
-# c) Use your variables to print out a sentence that looks like:
-      # =>  My name is Arjun Venkataswamy
+  
+  
+   def weather(city, my_temp)
 
+     puts "#{city}'s Wednesday forecast: #{my_temp}"
+     
+   end
 
-### 3. CREATING METHODS
+   weather('chicago', 100)
 
-# a) Write a method called "weather" that:
-#   - takes in two inputs: a city name and a temperature
-#   - prints out a statement that looks like:
-    # => "In Chicago it's -75 degrees."
-# b) Call the above method
 
 
 ### 4. CONDITIONAL LOGIC
@@ -42,6 +43,19 @@
       # => "Don't forget your earmuffs"
       # => "... just move somewhere else. You don't deserve this."
 
+    def weather(my_temp)
+      if my_temp > 100
+        puts "It is hot hot hot!"
+      elsif my_temp > 85
+        puts "Beautiful sweatshirt weather!"
+      elsif my_temp > 55
+        puts "Don't forget your earmuffs!"
+      else 
+        puts "... just move somewhere else. You don't deserve this."
+      end
+    end
+
+    weather(rand(100))
 
 ### 5. ARRAYS
 
@@ -52,33 +66,42 @@
 # b) Save the array into a variable
 # c) Using the variable, print out the second item in the array
 
+    restaurant_list = ["Hot Doug's", "Portillo's", "Kuma's"]
+    puts restaurant_list[1]
 
 ### 6. HASHES
 
 # a) Pull out Bob's zip code from the following hash:
 
-# bob = { "street" => "155 N Wacker", "city" => "Chicago", "zip" => 60606 }
+
+    bob = { "street" => "155 N Wacker", "city" => "Chicago", "zip" => "60606" }
+    puts "Bob's zipcode is #{bob["zip"]}"
+
+
 
 # challenge) Pull out and print the third person's
 #            street address from the following array:
 
-# people = [
-#   {
-#     "age" => 22,
-#     "sex" => "m",
-#     "location" => {"street" => "222 W Merchandise Mart", "city" => "Chicago", "zip" => 60654}
-#   },
-#   {
-#     "age" => 31,
-#     "sex" => "m",
-#     "location" => {"street" => "155 N Wacker", "city" => "Chicago", "zip" => 60606}
-#   },
-#   {
-#     "age" => 43,
-#     "sex" => "f",
-#     "location" => {"street" => "233 S Wacker", "city" => "Chicago", "zip" => 60606}
-#   }
-# ]
+    people = [
+       {
+         "age" => 22,
+         "sex" => "m",
+         "location" => {"street" => "222 W Merchandise Mart", "city" => "Chicago", "zip" => 60654}
+       },
+       {
+         "age" => 31,
+         "sex" => "m",
+         "location" => {"street" => "155 N Wacker", "city" => "Chicago", "zip" => 60606}
+       },
+       {
+         "age" => 43,
+         "sex" => "f",
+         "location" => {"street" => "233 S Wacker", "city" => "Chicago", "zip" => 60606}
+       }
+    ]
+ 
+ 
+    puts "This #{people[1]["age"]} year old dude is living at #{people[1]["location"]["street"]} #{people[1]["location"]["city"]} #{people[1]["location"]["zip"]}"
 
 
 
@@ -93,6 +116,25 @@
 
 # challenge) Randomize the message at the end of each statement
 
+    worst_candy = ["Necco Wafers", "Smarties", "Candy corn pieces", "Tootsie Rolls", "Now and Laters"]
+    candies_are = [" are so good", "--so chalkyyy", " are like little orange teeth", "", ", bro"]
+  
+    worst_candy.each do |candies|
+
+      if candies == "Necco Wafers"
+        puts "#{candies}#{candies_are.sample}."
+      elsif candies == "Smarties"
+        puts "#{candies}#{candies_are.sample}."
+      elsif candies == "Candy corn pieces"
+        puts "#{candies}#{candies_are.sample}."
+      elsif candies == "Tootsie Rolls"
+        puts "#{candies}#{candies_are.sample}."
+      elsif candies == "Now and Laters"
+        puts "#{candies}#{candies_are.sample}."
+      end  
+      
+    end  
+  
 
 ### 8. CLASSES
 
@@ -103,6 +145,12 @@
 # e) Create methods to access the puppy's name and happiness
 # f) Create a method to increase the puppy's happiness by 1
 # g) Create a method to decrease the puppy's happiness by 1
+
+
+class Puppy
+  
+  
+end  
 
 
 # 9. CHALLENGE: RUBY TO HTML
